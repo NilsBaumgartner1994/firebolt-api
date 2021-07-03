@@ -5,7 +5,7 @@
  *
  * @class Server
  */
-export class Server {
+export default class Server {
 
     /**
      * Creates an instance of Server.
