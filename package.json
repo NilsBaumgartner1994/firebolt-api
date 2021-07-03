@@ -1,10 +1,13 @@
 {
   "name": "firebolt-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Firebolt-API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && node build/index.js",
+    "build": "rimraf ./build && tsc",
+    "dev": "nodemon",
     "upload": "npm version patch && npm run publish"
   },
   "repository": {
@@ -20,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/NilsBaumgartner1994/firebolt-api/issues"
   },
-  "homepage": "https://github.com/NilsBaumgartner1994/firebolt-api#readme"
+  "homepage": "https://github.com/NilsBaumgartner1994/firebolt-api#readme",
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "nodemon": "^2.0.9",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5"
+  }
 }
