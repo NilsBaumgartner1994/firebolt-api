@@ -2,8 +2,9 @@
   "name": "firebolt-api",
   "version": "0.0.2",
   "description": "Firebolt-API",
-  "main": "index.js",
+  "main": "build/modules.js",
   "scripts": {
+    "clean": "rm -rf ./build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run build && node build/index.js",
     "build": "rimraf ./build && tsc",
