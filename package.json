@@ -1,6 +1,6 @@
 {
   "name": "firebolt-api",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "Firebolt-API",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,8 @@
     "start": "npm run build && node ./build/development.js",
     "build": "rimraf ./build && tsc",
     "dev": "nodemon",
-    "prepareUpload": "npm run build && npm version patch && cp package.json ./build",
-    "upload": "npm run prepareUpload && npm publish"
+    "prepareUpload": "npm run build && cp package.json ./build",
+    "upload": "npm run prepareUpload && cd ./build && npm version patch && npm publish && cd .. && npm version patch"
   },
   "repository": {
     "type": "git",
