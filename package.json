@@ -6,10 +6,11 @@
   "scripts": {
     "clean": "rm -rf ./build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run build && node build/index.js",
+    "start": "npm run build && node ./build/development.js",
     "build": "rimraf ./build && tsc",
     "dev": "nodemon",
-    "upload": "npm run build && npm version patch && cp package.json ./build && npm publish"
+    "prepareUpload": "npm run build && npm version patch && cp package.json ./build",
+    "upload": "npm run prepareUpload && npm publish"
   },
   "repository": {
     "type": "git",
