@@ -9,7 +9,7 @@
     "start": "npm run build && node build/index.js",
     "build": "rimraf ./build && tsc",
     "dev": "nodemon",
-    "upload": "npm version patch && npm run publish"
+    "upload": "npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
