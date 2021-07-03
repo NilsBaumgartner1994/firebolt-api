@@ -1,15 +1,15 @@
 {
   "name": "firebolt-api",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Firebolt-API",
-  "main": "build/modules.js",
+  "main": "index.js",
   "scripts": {
     "clean": "rm -rf ./build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run build && node build/index.js",
     "build": "rimraf ./build && tsc",
     "dev": "nodemon",
-    "upload": "npm run build &&  npm version patch && cp package.json ./build && npm publish"
+    "upload": "npm run build && npm version patch && cp package.json ./build && npm publish"
   },
   "repository": {
     "type": "git",
