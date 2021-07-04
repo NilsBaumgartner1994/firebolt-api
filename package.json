@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rm -rf ./build",
     "coverage": "jest --coverage && cat ./build/coverage/lcov.info | coveralls",
-    "test": "jest",
+    "test": "npm run coverage",
     "start": "npm run build && node ./build/development.js",
     "_prepareBuild": "rm -rf ./build",
     "build": "npm run _prepareBuild && rimraf ./build && tsc",
