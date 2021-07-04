@@ -27,6 +27,8 @@ export default class Server {
         console.log("Hello new World");
         if(12==12){
             return true;
+        } else {
+            console.log("Coverage")
         }
     }
 }
