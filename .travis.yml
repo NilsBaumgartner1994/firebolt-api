@@ -5,7 +5,7 @@ node_js:
   - '10'
 branches:
   only:
-    - master
+    - main
 before_install:
   - npm upgrade
 install:
