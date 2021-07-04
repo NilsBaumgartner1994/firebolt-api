@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf ./build",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
+    "test": "jest",
     "start": "npm run build && node ./build/development.js",
     "build": "rimraf ./build && tsc",
     "dev": "nodemon",
-    "prepareUpload": "npm run build && cp package.json ./build",
-    "upload": "npm run prepareUpload && cd ./build && npm version patch && npm publish && cd .. && npm version patch"
+    "_prepareUpload": "npm run build && cp package.json ./build",
+    "_uploadBuild": "cd ./build && npm version patch && npm publish && cd ..",
+    "upload": "npm run _prepareUpload && npm run _uploadBuild && npm version patch && npm run clean"
   },
   "repository": {
     "type": "git",
@@ -21,13 +23,28 @@
     "api"
   ],
   "author": "Nils Baumgartner",
+  "contributors": [
+    {
+      "name": "Nils Baumgartner",
+      "email": "nilsbaumgartner1994@gmail.com",
+      "url": "https://github.com/NilsBaumgartner1994"
+    },
+    {
+      "name": "Steffen Droppelmann",
+      "email": "",
+      "url": ""
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/NilsBaumgartner1994/firebolt-api/issues"
   },
   "homepage": "https://github.com/NilsBaumgartner1994/firebolt-api#readme",
   "devDependencies": {
+    "@types/jest": "^26.0.23",
     "@types/node": "^16.0.0",
+    "coveralls": "^3.1.1",
+    "jest": "^27.0.6",
     "nodemon": "^2.0.9",
     "rimraf": "^3.0.2",
     "ts-node": "^10.0.0",
