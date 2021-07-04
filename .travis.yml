@@ -9,5 +9,7 @@ before_install:
   - npm upgrade
 install:
   - npm install
+before_script:
+  - npm run build
 script:
   - npm run coverage
