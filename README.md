@@ -9,4 +9,6 @@
 
 firebolt-api
 
+ignite your server
+
 This is the Firebolt-API!

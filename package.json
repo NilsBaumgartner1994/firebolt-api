@@ -6,12 +6,13 @@
   "scripts": {
     "clean": "rm -rf ./build",
     "coverage": "jest --coverage && cat ./build/coverage/lcov.info | coveralls",
-    "test": "npm run coverage",
+    "test": "npm run build && npm run testOnly",
+    "testOnly": "npm run coverage",
     "start": "npm run build && node ./build/development.js",
     "_prepareBuild": "rm -rf ./build",
     "build": "npm run _prepareBuild && rimraf ./build && tsc",
     "dev": "nodemon",
-    "_prepareUpload": "npm run build && cp package.json ./build",
+    "_prepareUpload": "npm run build && cp package.json ./build && rm -rf ./build/coverage && rm -rf ./build/tests",
     "_uploadBuild": "cd ./build && npm version patch && npm publish && cd ..",
     "upload": "npm run _prepareUpload && npm run _uploadBuild && npm version patch && npm run clean"
   },
