@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf ./build",
-    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
+    "coverage": "jest --coverage && coveralls < coverage/lcov.info",
     "test": "jest",
     "start": "npm run build && node ./build/development.js",
     "build": "rimraf ./build && tsc",

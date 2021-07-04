@@ -25,5 +25,8 @@ export default class Server {
      */
     start() {
         console.log("Hello new World");
+        if(12==12){
+            return true;
+        }
     }
 }
