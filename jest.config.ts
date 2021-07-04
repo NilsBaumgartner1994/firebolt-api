@@ -31,15 +31,15 @@ export default {
   // ],
 
   // Indicates which provider should be used to instrument code for coverage
-  coverageProvider: "v8",
+  coverageProvider: "babel",
 
   // A list of reporter names that Jest uses when writing coverage reports
-  // coverageReporters: [
-  //   "json",
-  //   "text",
-  //   "lcov",
-  //   "clover"
-  // ],
+  coverageReporters: [
+    "json",
+    "text",
+    "lcov",
+    "clover"
+  ],
 
   // An object that configures minimum threshold enforcement for coverage results
   // coverageThreshold: undefined,
@@ -96,7 +96,7 @@ export default {
   // preset: undefined,
 
   // Run tests from one or more projects
-  // projects: undefined,
+  //projects: ["<rootDir>/build/test/*"],
 
   // Use this configuration option to add custom reporters to Jest
   // reporters: undefined,
@@ -114,12 +114,12 @@ export default {
   // restoreMocks: false,
 
   // The root directory that Jest should scan for tests and modules within
-  // rootDir: undefined,
+  rootDir: "build",
 
   // A list of paths to directories that Jest should use to search for files in
-  // roots: [
-  //   "<rootDir>"
-  // ],
+  roots: [
+    "<rootDir>"
+  ],
 
   // Allows you to use a custom runner instead of Jest's default test runner
   // runner: "jest-runner",
@@ -173,6 +173,9 @@ export default {
 
   // A map from regular expressions to paths to transformers
   // transform: undefined,
+  "transform": {
+    "^.+\\.(ts|tsx)$": "ts-jest"
+  },
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   // transformIgnorePatterns: [
