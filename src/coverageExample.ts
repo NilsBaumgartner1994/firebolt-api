@@ -23,7 +23,7 @@ export default class CoverageExample {
     } else {
       if (number < 10) {
         if (number < 4) {
-          return "what a nice day";
+          return "quality gate computed";
         } else {
           return 'go';
         }
