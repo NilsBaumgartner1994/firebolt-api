@@ -14,7 +14,7 @@ export default class Server {
      *
      * @memberof Server
      */
-    constructor(options) {
+    constructor(options: any) {
         console.log("Create a new Server instance");
     }
 
