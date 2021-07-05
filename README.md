@@ -13,6 +13,7 @@
   <a href="https://david-dm.org/NilsBaumgartner1994/firebolt-apig"><img src="https://david-dm.org/NilsBaumgartner1994/firebolt-api/status.svg" alt="dependencies" /></a>
   <a href="https://codeclimate.com/github/NilsBaumgartner1994/firebolt-api/maintainability"><img src="https://api.codeclimate.com/v1/badges/26f0f806f4f9222e8dd4/maintainability" /></a>
   <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FNilsBaumgartner1994%2Ffirebolt-api?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FNilsBaumgartner1994%2Ffirebolt-api.svg?type=shield"/></a>
+  <a href="https://github.com/google/gts" alt="Google TypeScript Style"><img src="https://img.shields.io/badge/code%20style-google-blueviolet.svg"/></a>
 </p>
 
 <p align="center">
