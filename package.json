@@ -3,6 +3,7 @@
   "version": "0.0.24",
   "description": "Firebolt-API",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "clean": "rm -rf ./build",
     "coverage": "jest --coverage && cat ./build/coverage/lcov.info | coveralls",
