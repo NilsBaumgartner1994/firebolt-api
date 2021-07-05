@@ -10,18 +10,19 @@
   <a href="https://david-dm.org/NilsBaumgartner1994/firebolt-apig"><img src="https://david-dm.org/NilsBaumgartner1994/firebolt-api/status.svg" alt="dependencies" /></a>
   <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FNilsBaumgartner1994%2Ffirebolt-api?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FNilsBaumgartner1994%2Ffirebolt-api.svg?type=shield"/></a>
   <a href="https://github.com/google/gts" alt="Google TypeScript Style"><img src="https://img.shields.io/badge/code%20style-google-blueviolet.svg"/></a>
+  <a href="https://shields.io/" alt="Google TypeScript Style"><img src="https://img.shields.io/badge/uses-TypeScript-blue.svg"/></a>
+</p>
 
-<a href="https://travis-ci.com/NilsBaumgartner1994/firebolt-api.svg?branch=main"><img src="https://travis-ci.com/NilsBaumgartner1994/firebolt-api.svg?branch=main" alt="build" /></a>
-<a href="https://img.shields.io/lgtm/grade/javascript/g/NilsBaumgartner1994/firebolt-api.svg?logo=lgtm&logoWidth=18"><img src="https://img.shields.io/lgtm/grade/javascript/g/NilsBaumgartner1994/firebolt-api.svg?logo=lgtm&logoWidth=18" alt="code quality" /></a>
-<a href="https://coveralls.io/repos/github/NilsBaumgartner1994/firebolt-api/badge.svg?branch=main"><img src="https://coveralls.io/repos/github/NilsBaumgartner1994/firebolt-api/badge.svg?branch=main" alt="coverage" /></a>
-<a href="https://sonarcloud.io/dashboard?id=NilsBaumgartner1994_firebolt-api"><img src="https://sonarcloud.io/api/project_badges/measure?project=NilsBaumgartner1994_firebolt-api&metric=alert_status" alt="Quality Gate Status" /></a>
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=NilsBaumgartner1994_firebolt-api&metric=code_smells)](https://sonarcloud.io/dashboard?id=NilsBaumgartner1994_firebolt-api)
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=NilsBaumgartner1994_firebolt-api&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=NilsBaumgartner1994_firebolt-api)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=NilsBaumgartner1994_firebolt-api&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=NilsBaumgartner1994_firebolt-api)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=NilsBaumgartner1994_firebolt-api&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=NilsBaumgartner1994_firebolt-api)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=NilsBaumgartner1994_firebolt-api&metric=security_rating)](https://sonarcloud.io/dashboard?id=NilsBaumgartner1994_firebolt-api)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=NilsBaumgartner1994_firebolt-api&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=NilsBaumgartner1994_firebolt-api)
-
+<p align="center">
+  <a href="https://travis-ci.com/NilsBaumgartner1994/firebolt-api.svg?branch=main"><img src="https://travis-ci.com/NilsBaumgartner1994/firebolt-api.svg?branch=main" alt="build" /></a>
+  <a href="https://img.shields.io/lgtm/grade/javascript/g/NilsBaumgartner1994/firebolt-api.svg?logo=lgtm&logoWidth=18"><img src="https://img.shields.io/lgtm/grade/javascript/g/NilsBaumgartner1994/firebolt-api.svg?logo=lgtm&logoWidth=18" alt="code quality" /></a>
+  <a href="https://coveralls.io/repos/github/NilsBaumgartner1994/firebolt-api/badge.svg?branch=main"><img src="https://coveralls.io/repos/github/NilsBaumgartner1994/firebolt-api/badge.svg?branch=main" alt="coverage" /></a>
+  <a href="https://sonarcloud.io/dashboard?id=NilsBaumgartner1994_firebolt-api"><img src="https://sonarcloud.io/api/project_badges/measure?project=NilsBaumgartner1994_firebolt-api&metric=code_smells" alt="Code Smells" /></a>
+  <a href="https://sonarcloud.io/dashboard?id=NilsBaumgartner1994_firebolt-api"><img src="https://sonarcloud.io/api/project_badges/measure?project=NilsBaumgartner1994_firebolt-api&metric=duplicated_lines_density" alt="Duplicated Lines (%)" /></a>
+  <a href="https://sonarcloud.io/dashboard?id=NilsBaumgartner1994_firebolt-api"><img src="https://sonarcloud.io/api/project_badges/measure?project=NilsBaumgartner1994_firebolt-api&metric=sqale_rating" alt="Maintainability Rating" /></a>
+  <a href="https://sonarcloud.io/dashboard?id=NilsBaumgartner1994_firebolt-api"><img src="https://sonarcloud.io/api/project_badges/measure?project=NilsBaumgartner1994_firebolt-api&metric=reliability_rating" alt="Reliability Rating" /></a>
+  <a href="https://sonarcloud.io/dashboard?id=NilsBaumgartner1994_firebolt-api"><img src="https://sonarcloud.io/api/project_badges/measure?project=NilsBaumgartner1994_firebolt-api&metric=security_rating" alt="Security Rating" /></a>
+  <a href="https://sonarcloud.io/dashboard?id=NilsBaumgartner1994_firebolt-api"><img src="https://sonarcloud.io/api/project_badges/measure?project=NilsBaumgartner1994_firebolt-api&metric=vulnerabilities" alt="Vulnerabilities" /></a>
 </p>
 
 <p align="center">
