@@ -6,9 +6,13 @@
 [![Bundlephobia](https://badgen.net/npm/dt/firebolt-api)](https://www.npmjs.com/package/firebolt-api)
 [![Bundlephobia](https://badgen.net/bundlephobia/minzip/firebolt-api)](https://bundlephobia.com/result?p=firebolt-api)
 [![dependencies Status](https://david-dm.org/NilsBaumgartner1994/firebolt-api/status.svg)](https://david-dm.org/NilsBaumgartner1994/firebolt-apig)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNilsBaumgartner1994%2Ffirebolt-api.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FNilsBaumgartner1994%2Ffirebolt-api?ref=badge_shield)
 
 firebolt-api
 
 ignite your server
 
 This is the Firebolt-API!
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FNilsBaumgartner1994%2Ffirebolt-api.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FNilsBaumgartner1994%2Ffirebolt-api?ref=badge_large)
