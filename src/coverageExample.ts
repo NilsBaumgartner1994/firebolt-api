@@ -17,12 +17,13 @@ export default class CoverageExample {
     console.log('Create a new CoverageExample instance');
   }
 
-  run(number: Number) {
+  run(number: number) {
     if (number > 40) {
       return true;
     } else {
       if (number < 10) {
         if (number < 4) {
+          return "what a nice day";
         } else {
           return 'go';
         }
