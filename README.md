@@ -19,6 +19,5 @@
     Ignite your software !
 </p>
 
-
 ## About
 This is the Firebolt-API!
