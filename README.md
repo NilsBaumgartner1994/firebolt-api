@@ -11,6 +11,8 @@
   <a href="https://www.npmjs.com/package/firebolt-api"><img src="https://badgen.net/npm/dt/firebolt-api" alt="downloads total" /></a>
   <a href="https://bundlephobia.com/result?p=firebolt-api"><img src="https://badgen.net/bundlephobia/minzip/firebolt-api" alt="size" /></a>
   <a href="https://david-dm.org/NilsBaumgartner1994/firebolt-apig"><img src="https://david-dm.org/NilsBaumgartner1994/firebolt-api/status.svg" alt="dependencies" /></a>
+  <a href="https://codeclimate.com/github/NilsBaumgartner1994/firebolt-api/maintainability"><img src="https://api.codeclimate.com/v1/badges/26f0f806f4f9222e8dd4/maintainability" /></a>
+  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FNilsBaumgartner1994%2Ffirebolt-api?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FNilsBaumgartner1994%2Ffirebolt-api.svg?type=shield"/></a>
 </p>
 
 <p align="center">
