@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "clean": "rm -rf ./build",
+    "clean": "rm -rf ./build && gts clean",
     "coverage": "jest --coverage && cat ./build/coverage/lcov.info | coveralls",
     "test": "npm run build && npm run testOnly",
     "testOnly": "npm run coverage",
@@ -15,7 +15,12 @@
     "dev": "nodemon",
     "_prepareUpload": "npm run build && rm -rf ./build/coverage && rm -rf ./build/tests",
     "_uploadBuild": "cd ./build && npm version patch && npm publish && cd ..",
-    "upload": "npm run _prepareUpload && npm run _uploadBuild && npm version patch && npm run clean"
+    "upload": "npm run _prepareUpload && npm run _uploadBuild && npm version patch && npm run clean",
+    "lint": "gts lint",
+    "fix": "gts fix",
+    "prepare": "npm run build",
+    "pretest": "npm run build",
+    "posttest": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -52,7 +57,8 @@
     "rimraf": "^3.0.2",
     "ts-jest": "^27.0.3",
     "ts-node": "^10.0.0",
-    "typescript": "^4.3.5"
+    "typescript": "^4.3.5",
+    "gts": "^3.1.0"
   },
   "dependencies": {
     "@babel/preset-typescript": "^7.14.5"

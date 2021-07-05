@@ -1,1 +1,1 @@
-console.log("This is our start testing script");
+console.log('This is our start testing script');
