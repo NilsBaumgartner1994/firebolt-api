@@ -1,6 +1,6 @@
 {
   "name": "firebolt-api",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "description": "Firebolt-API",
   "main": "index.js",
   "scripts": {
