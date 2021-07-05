@@ -1,6 +1,6 @@
 {
   "name": "firebolt-api",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "description": "Firebolt-API",
   "main": "index.js",
   "types": "index.d.ts",
