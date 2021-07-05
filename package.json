@@ -1,24 +1,23 @@
 {
   "name": "firebolt-api",
-  "version": "0.0.29",
+  "version": "0.0.40",
   "description": "Firebolt-API",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "clean": "rm -rf ./build && gts clean",
     "coverage": "jest --coverage && cat ./build/coverage/lcov.info | coveralls",
-    "test": "npm run build && npm run testOnly",
+    "test": "pwd && npm run build && npm run testOnly",
     "testOnly": "npm run coverage",
     "start": "npm run build && node ./build/development.js",
-    "build": "rimraf ./build && tsc && cp ./package.json ./build && cp ./README.md ./build",
+    "_prepareBuild": "rm -rf ./build",
+    "build": "npm run _prepareBuild && rimraf ./build && tsc && cp package.json ./build && cp README.md ./build",
     "dev": "nodemon",
     "_prepareUpload": "npm run build && rm -rf ./build/coverage && rm -rf ./build/tests",
-    "upload": "npm run _prepareUpload && npm version patch && cp ./package.json ./build && npm publish ./build &&npm run clean",
+    "_uploadBuild": "cd ./build && npm version patch && npm publish && cd ..",
+    "upload": "npm run _prepareUpload && npm run _uploadBuild && npm version patch && npm run clean",
+    "clean": "rm -rf ./build && gts clean",
     "lint": "gts lint",
-    "fix": "gts fix",
-    "prepare": "npm run build",
-    "pretest": "npm run build",
-    "posttest": "npm run lint"
+    "fix": "gts fix"
   },
   "repository": {
     "type": "git",
