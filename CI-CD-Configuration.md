@@ -14,6 +14,8 @@
 - Checks any Code-Smells and Code-Quality metrics
     - Activate account and connect with GitHub
         - https://sonarcloud.io/projects
+    - Add the project
+        - https://sonarcloud.io/projects/create
 
 ### Travis-CI
 - Check GitHub integration
