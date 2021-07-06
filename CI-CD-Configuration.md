@@ -16,6 +16,8 @@
         - https://sonarcloud.io/projects
     - Add the project
         - https://sonarcloud.io/projects/create
+    - Add .github/workflows/build.yml to the repo
+        - Check correct branch: master-->main
 
 ### Travis-CI
 - Check GitHub integration
