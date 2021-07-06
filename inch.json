@@ -1,0 +1,11 @@
+{
+  "files": {
+    "included": [
+      "src/**/*.ts",
+      "src/**/*.js"
+    ],
+    "excluded": [
+
+    ]
+  }
+}
