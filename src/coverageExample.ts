@@ -18,15 +18,10 @@ export default class CoverageExample {
   }
 
   run(number: number) {
-    if (number > 40) {
-      return true;
-    } else {
-      if (number < 10) {
-        if (number < 4) {
-          return "quality gate computed";
-        } else {
-          return 'go';
-        }
+    for(let i=0; i<number; i++){
+      console.log('This is a test');
+      if(i==10){
+        console.log('Buzz');
       }
     }
   }
