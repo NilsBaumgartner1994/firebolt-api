@@ -16,8 +16,12 @@
         - https://sonarcloud.io/projects
     - Add the project
         - https://sonarcloud.io/projects/create
-    - Add .github/workflows/build.yml to the repo
-        - Check correct branch: master-->main
+        - Add .github/workflows/build.yml to the repo
+            - Check correct branch: master-->main
+        - Add sonar-project.properties
+        - Add SONAR-TOKEN to Git-Repo
+    - Configure New Code after first analysis to "Previous version"
+        - All code that has changed since the previous version bump is considered new code
 
 ### Travis-CI
 - Check GitHub integration
