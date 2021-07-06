@@ -6,9 +6,9 @@
 - Travis-CI
 - Coveralls
 - Fossa
+- Lint Action
 
 ### README.md
-
 - Change all Badges to correct url
 
 ### SondarCloud
@@ -41,3 +41,12 @@
 - Check the if any license problems are found
 - Add the Repo
   - https://app.fossa.com/projects
+
+### Lint Action
+- Automatically formats code to meet linting requirements
+  - https://github.com/marketplace/actions/lint-action
+- https://github.com/wearerequired/lint-action
+  - Setup in .github/workflows/build.yml
+  - activate: auto_fix
+  - add .github to .eslintignore and .prettierignore
+  
