@@ -1,4 +1,8 @@
-<h2 align="center">Firebolt-API</h2>
+<h2 align="center">
+    <a href="https://github.com/NilsBaumgartner1994/firebolt-api"><img src="https://github.com/NilsBaumgartner1994/firebolt-api/blob/main/assets/images/firebolt-logo-git.gif?raw=true" alt="firebolt logo" /></a>    
+    Firebolt-API
+    <a href="https://github.com/NilsBaumgartner1994/firebolt-api"><img src="https://github.com/NilsBaumgartner1994/firebolt-api/blob/main/assets/images/firebolt-logo-git.gif?raw=true" alt="firebolt logo" /></a>
+</h2>
 
 <p align="center">
   <a href="https://badge.fury.io/js/firebolt-api.svg"><img src="https://badge.fury.io/js/firebolt-api.svg" alt="npm package" /></a>
@@ -15,7 +19,6 @@
 
 <p align="center">
   <a href="https://travis-ci.com/NilsBaumgartner1994/firebolt-api.svg?branch=main"><img src="https://travis-ci.com/NilsBaumgartner1994/firebolt-api.svg?branch=main" alt="build" /></a>
-  <a href="https://img.shields.io/lgtm/grade/javascript/g/NilsBaumgartner1994/firebolt-api.svg?logo=lgtm&logoWidth=18"><img src="https://img.shields.io/lgtm/grade/javascript/g/NilsBaumgartner1994/firebolt-api.svg?logo=lgtm&logoWidth=18" alt="code quality" /></a>
   <a href="https://coveralls.io/repos/github/NilsBaumgartner1994/firebolt-api/badge.svg?branch=main"><img src="https://coveralls.io/repos/github/NilsBaumgartner1994/firebolt-api/badge.svg?branch=main" alt="coverage" /></a>
   <a href="https://sonarcloud.io/dashboard?id=NilsBaumgartner1994_firebolt-api"><img src="https://sonarcloud.io/api/project_badges/measure?project=NilsBaumgartner1994_firebolt-api&metric=code_smells" alt="Code Smells" /></a>
   <a href="https://sonarcloud.io/dashboard?id=NilsBaumgartner1994_firebolt-api"><img src="https://sonarcloud.io/api/project_badges/measure?project=NilsBaumgartner1994_firebolt-api&metric=duplicated_lines_density" alt="Duplicated Lines (%)" /></a>
