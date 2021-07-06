@@ -33,7 +33,9 @@
 </p>
 
 ## About
+
 This is the Firebolt-API!
 
 ## Contributors
+
 <a href="https://github.com/NilsBaumgartner1994/firebolt-connector"><img src="https://contrib.rocks/image?repo=NilsBaumgartner1994/firebolt-api" alt="Contributors" /></a>
